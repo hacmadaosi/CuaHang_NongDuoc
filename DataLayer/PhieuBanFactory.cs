@@ -8,7 +8,8 @@ namespace CuahangNongduoc.DataLayer
 {
     public class PhieuBanFactory
     {
-        DataService m_Ds = new DataService();
+        DataService 
+            m_Ds = new DataService();
 
         public DataTable TimPhieuBan(String idKh, DateTime dt)
         {

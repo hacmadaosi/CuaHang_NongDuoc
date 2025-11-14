@@ -13,7 +13,7 @@ namespace CuahangNongduoc
 		private static SqlConnection m_Connection;
 
         //
-        public static String m_ConnectString = "Server=USER_1;Database=CuaHang_NongDuoc;Integrated Security=SSPI;TrustServerCertificate=Yes;";
+        public static String m_ConnectString = "Data Source=localhost\\SQLEXPRESS;Database=CuaHang_NongDuoc;Integrated Security=SSPI;TrustServerCertificate=Yes;";
 		// The command to execute query or non-query command on a database of this data service.
 		private SqlCommand m_Command;
       

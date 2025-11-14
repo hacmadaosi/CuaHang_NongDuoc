@@ -36,7 +36,6 @@ namespace CuahangNongduoc.Controller
             bs.DataSource = tbl;
             bn.BindingSource = bs;
             dg.DataSource = bs;
-            
         }
 
         public void HienthiDataGridviewComboBox(System.Windows.Forms.DataGridViewComboBoxColumn cmb)

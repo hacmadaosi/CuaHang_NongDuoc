@@ -182,5 +182,10 @@ namespace CuahangNongduoc
         {
            // Help.ShowHelp(this, "CPP.CHM");
         }
+
+        private void toolNhanVien_Click(object sender, EventArgs e)
+        {
+            changeForm(new frmNhanVien());
+        }
     }
 }

@@ -44,7 +44,5 @@ namespace CuahangNongduoc.BusinessObject
             get { return m_DienThoai; }
             set { m_DienThoai = value; }
         }
-       
-
     }
 }

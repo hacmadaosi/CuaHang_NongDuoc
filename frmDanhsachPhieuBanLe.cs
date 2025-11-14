@@ -19,11 +19,12 @@ namespace CuahangNongduoc
 
         PhieuBanController ctrl = new PhieuBanController();
         KhachHangController ctrlKH = new KhachHangController();
-        private void frmDanhsachPhieuNhap_Load(object sender, EventArgs e)
+        private void frmDanhsachPhieuBanLe_Load(object sender, EventArgs e)
         {
             ctrlKH.HienthiKhachHangDataGridviewComboBox(colKhachhang);
             ctrl.HienthiPhieuBanLe(bindingNavigator, dataGridView);
         }
+
         frmBanLe BanLe = null;
         private void dataGridView_DoubleClick(object sender, EventArgs e)
         {
@@ -113,9 +114,7 @@ namespace CuahangNongduoc
             }
         }
 
-        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
+      
     }
 }
