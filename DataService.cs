@@ -13,7 +13,7 @@ namespace CuahangNongduoc
 		private static SqlConnection m_Connection;
 
         //
-        public static String m_ConnectString = "Data Source=localhost\\SQLEXPRESS;Database=CuaHang_NongDuoc;Integrated Security=SSPI;TrustServerCertificate=Yes;";
+        public static String m_ConnectString = "Server=localhost;Database=CuaHang_NongDuoc;Integrated Security=SSPI;TrustServerCertificate=Yes;";
 		// The command to execute query or non-query command on a database of this data service.
 		private SqlCommand m_Command;
       
@@ -49,6 +49,22 @@ namespace CuahangNongduoc
                 String str = e.Message;
             }
 		}
+        public bool ExecuteEffect(SqlCommand command)
+        {
+            OpenConnection();
+            m_Command = command;
+            int rowsAffected = 0;
+            try
+            {
+                m_Command.Connection = m_Connection;
+                rowsAffected = m_Command.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                String str = e.Message;
+            }
+            return rowsAffected > 0;
+        }
 
 
         public static bool OpenConnection()

@@ -3,116 +3,128 @@
   "WorkspaceRootPath": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\controller\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:controller\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\controller\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:controller\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\nhanvienfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\nhanvienfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\nhacungcapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\nhacungcapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\phieubanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\phieubanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\controller\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:controller\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\khachhangfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\khachhangfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\controller\\phieubancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:controller\\phieubancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\thamso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:thamso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\sanphamfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\sanphamfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\phieuthanhtoanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\phieuthanhtoanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\phieunhapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\phieunhapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\phieuchifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\phieuchifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\masanphanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\masanphanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\businessobject\\lydochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:businessobject\\lydochi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\lydochifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\lydochifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmphieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmphieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\dunokhachhangfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\dunokhachhangfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmtimphieuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmtimphieuthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\donvitinhfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\donvitinhfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmtimphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmtimphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\chitietphieunhapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\chitietphieunhapfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\datalayer\\chitietphieubanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:datalayer\\chitietphieubanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\num2str.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:num2str.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\businessobject\\chitietphieuban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:businessobject\\chitietphieuban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\businessobject\\donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:businessobject\\donvitinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmtimphieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmtimphieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmtimphieuchi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmtimphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmtimphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmtimphieubanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmtimphieubanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmthongtinlienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmthongtinlienhe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmsanphamhethan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmsanphamhethan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmsoluongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmsoluongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmsoluongton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmsoluongton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmdanhsachphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmdanhsachphieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmbansi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmbansi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmdanhsachphieubanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmdanhsachphieubanle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmdanhsachphieubansi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmdanhsachphieubansi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|d:\\agu\\hocky_7\\see522\\cuahang nongduoc\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\controller\\chitietphieubancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:controller\\chitietphieubancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\model\\usersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7305AF2-08AC-442F-97CE-9326B33046AA}|CuahangNongduoc.csproj|solutionrelative:model\\usersingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,104 +146,117 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmSanPham.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "frmSanPham.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSanPham.cs",
+              "RelativeToolTip": "frmSanPham.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAcwHUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:55:23.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Controller\\SanPhamController.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\SanPhamController.cs",
+              "RelativeToolTip": "Controller\\SanPhamController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:57:51.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "Controller\\NhanVienController.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\NhanVienController.cs",
+              "RelativeToolTip": "Controller\\NhanVienController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAASwEAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:52:48.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhanVienFactory.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\NhanVienFactory.cs",
+              "RelativeDocumentMoniker": "DataLayer\\NhanVienFactory.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\NhanVienFactory.cs",
+              "RelativeToolTip": "DataLayer\\NhanVienFactory.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:56:00.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "frmNhanVien.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhanVien.cs [Design]",
+              "RelativeToolTip": "frmNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:52:37.942Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "frmNhanVien.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhanVien.cs",
+              "RelativeToolTip": "frmNhanVien.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAswNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:19:53.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmSanPham.cs [Design]",
               "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSanPham.cs",
               "RelativeDocumentMoniker": "frmSanPham.cs",
               "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSanPham.cs [Design]",
               "RelativeToolTip": "frmSanPham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T03:53:20.971Z",
+              "WhenOpened": "2025-11-14T12:55:18.715Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NhaCungCapFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\NhaCungCapFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\NhaCungCapFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\NhaCungCapFactory.cs",
-              "RelativeToolTip": "DataLayer\\NhaCungCapFactory.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:49:30.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmMain.cs [Design]",
-              "RelativeToolTip": "frmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:33:01.24Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmMain.cs",
-              "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:35:09.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KhachHangController.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\KhachHangController.cs",
-              "RelativeDocumentMoniker": "Controller\\KhachHangController.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\KhachHangController.cs",
-              "RelativeToolTip": "Controller\\KhachHangController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwE0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T03:14:59.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DataService.cs",
               "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataService.cs",
               "RelativeDocumentMoniker": "DataService.cs",
               "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataService.cs",
               "RelativeToolTip": "DataService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAtwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAjwDMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:34:26.636Z",
+              "WhenOpened": "2025-11-14T14:47:39.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "KhachHangFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\KhachHangFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\KhachHangFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\KhachHangFactory.cs",
-              "RelativeToolTip": "DataLayer\\KhachHangFactory.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "frmNhanVien.Designer.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhanVien.Designer.cs",
+              "RelativeDocumentMoniker": "frmNhanVien.Designer.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhanVien.Designer.cs",
+              "RelativeToolTip": "frmNhanVien.Designer.cs",
+              "ViewState": "AgIAABUBAAAAAAAAAAAjwCoBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:46:51.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PhieuBanFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuBanFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\PhieuBanFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuBanFactory.cs",
-              "RelativeToolTip": "DataLayer\\PhieuBanFactory.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:50:13.117Z",
+              "WhenOpened": "2025-11-14T14:04:12.299Z",
               "EditorCaption": ""
             },
             {
@@ -243,245 +268,264 @@
               "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmKhachHang.cs [Design]",
               "RelativeToolTip": "frmKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T03:20:22.435Z",
+              "WhenOpened": "2025-11-14T14:06:29.813Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PhieuBanController.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\PhieuBanController.cs",
-              "RelativeDocumentMoniker": "Controller\\PhieuBanController.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\PhieuBanController.cs",
-              "RelativeToolTip": "Controller\\PhieuBanController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T03:21:12.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PhieuChiFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuChiFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\PhieuChiFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuChiFactory.cs",
-              "RelativeToolTip": "DataLayer\\PhieuChiFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:51:02.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PhieuNhapFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuNhapFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\PhieuNhapFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuNhapFactory.cs",
-              "RelativeToolTip": "DataLayer\\PhieuNhapFactory.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:52:18.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PhieuThanhToanFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuThanhToanFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\PhieuThanhToanFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuThanhToanFactory.cs",
-              "RelativeToolTip": "DataLayer\\PhieuThanhToanFactory.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:52:53.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ThamSo.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\ThamSo.cs",
-              "RelativeDocumentMoniker": "ThamSo.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\ThamSo.cs",
-              "RelativeToolTip": "ThamSo.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAHQAAAAbAAAAAAAAAA==",
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "frmKhachHang.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmKhachHang.cs",
+              "RelativeToolTip": "frmKhachHang.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAjwBsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:55:40.847Z",
+              "WhenOpened": "2025-11-14T14:06:33.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "SanPhamFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\SanPhamFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\SanPhamFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\SanPhamFactory.cs",
-              "RelativeToolTip": "DataLayer\\SanPhamFactory.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "Title": "PhieuChiFactory.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuChiFactory.cs",
+              "RelativeDocumentMoniker": "DataLayer\\PhieuChiFactory.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\PhieuChiFactory.cs",
+              "RelativeToolTip": "DataLayer\\PhieuChiFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:55:09.901Z",
+              "WhenOpened": "2025-11-14T13:55:45.341Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LyDoChi.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\BusinessObject\\LyDoChi.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\LyDoChi.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\BusinessObject\\LyDoChi.cs",
+              "RelativeToolTip": "BusinessObject\\LyDoChi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:55:38.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmPhieuChi.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmPhieuChi.cs",
+              "RelativeDocumentMoniker": "frmPhieuChi.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmPhieuChi.cs [Design]",
+              "RelativeToolTip": "frmPhieuChi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:53.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmTimPhieuThu.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuThu.cs",
+              "RelativeDocumentMoniker": "frmTimPhieuThu.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuThu.cs [Design]",
+              "RelativeToolTip": "frmTimPhieuThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:52.296Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "MaSanPhanFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\MaSanPhanFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\MaSanPhanFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\MaSanPhanFactory.cs",
-              "RelativeToolTip": "DataLayer\\MaSanPhanFactory.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:48:38.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LyDoChiFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\LyDoChiFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\LyDoChiFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\LyDoChiFactory.cs",
-              "RelativeToolTip": "DataLayer\\LyDoChiFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:47:52.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DuNoKhachHangFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\DuNoKhachHangFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\DuNoKhachHangFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\DuNoKhachHangFactory.cs",
-              "RelativeToolTip": "DataLayer\\DuNoKhachHangFactory.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:45:58.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DonViTinhFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\DonViTinhFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\DonViTinhFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\DonViTinhFactory.cs",
-              "RelativeToolTip": "DataLayer\\DonViTinhFactory.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:45:31.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChiTietPhieuNhapFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\ChiTietPhieuNhapFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\ChiTietPhieuNhapFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\ChiTietPhieuNhapFactory.cs",
-              "RelativeToolTip": "DataLayer\\ChiTietPhieuNhapFactory.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowB4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:42:47.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ChiTietPhieuBanFactory.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\ChiTietPhieuBanFactory.cs",
-              "RelativeDocumentMoniker": "DataLayer\\ChiTietPhieuBanFactory.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\DataLayer\\ChiTietPhieuBanFactory.cs",
-              "RelativeToolTip": "DataLayer\\ChiTietPhieuBanFactory.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T02:40:07.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:35:01.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Num2Str.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Num2Str.cs",
-              "RelativeDocumentMoniker": "Num2Str.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Num2Str.cs",
-              "RelativeToolTip": "Num2Str.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:34:38.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ChiTietPhieuBan.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\BusinessObject\\ChiTietPhieuBan.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\ChiTietPhieuBan.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\BusinessObject\\ChiTietPhieuBan.cs",
-              "RelativeToolTip": "BusinessObject\\ChiTietPhieuBan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:34:14.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DonViTinh.cs",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\BusinessObject\\DonViTinh.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\DonViTinh.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\BusinessObject\\DonViTinh.cs",
-              "RelativeToolTip": "BusinessObject\\DonViTinh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:34:03.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "frmThanhToan.cs [Design]",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmThanhToan.cs",
-              "RelativeDocumentMoniker": "frmThanhToan.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmThanhToan.cs [Design]",
-              "RelativeToolTip": "frmThanhToan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:32:56.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "frmTimPhieuChi.cs [Design]",
-              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuChi.cs",
-              "RelativeDocumentMoniker": "frmTimPhieuChi.cs",
-              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuChi.cs [Design]",
-              "RelativeToolTip": "frmTimPhieuChi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:32:54.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
               "Title": "frmTimPhieuNhap.cs [Design]",
               "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuNhap.cs",
               "RelativeDocumentMoniker": "frmTimPhieuNhap.cs",
               "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuNhap.cs [Design]",
               "RelativeToolTip": "frmTimPhieuNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T08:32:51.941Z"
+              "WhenOpened": "2025-11-14T13:53:51.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmTimPhieuChi.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuChi.cs",
+              "RelativeDocumentMoniker": "frmTimPhieuChi.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuChi.cs [Design]",
+              "RelativeToolTip": "frmTimPhieuChi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:50.898Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmTimPhieuBanLe.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuBanLe.cs",
+              "RelativeDocumentMoniker": "frmTimPhieuBanLe.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmTimPhieuBanLe.cs [Design]",
+              "RelativeToolTip": "frmTimPhieuBanLe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:49.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmThongtinLienhe.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmThongtinLienhe.cs",
+              "RelativeDocumentMoniker": "frmThongtinLienhe.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmThongtinLienhe.cs [Design]",
+              "RelativeToolTip": "frmThongtinLienhe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:48.68Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmSanphamHethan.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSanphamHethan.cs",
+              "RelativeDocumentMoniker": "frmSanphamHethan.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSanphamHethan.cs [Design]",
+              "RelativeToolTip": "frmSanphamHethan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:45.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmSoLuongTon.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSoLuongTon.cs",
+              "RelativeDocumentMoniker": "frmSoLuongTon.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSoLuongTon.cs [Design]",
+              "RelativeToolTip": "frmSoLuongTon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:43.307Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmSoLuongBan.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSoLuongBan.cs",
+              "RelativeDocumentMoniker": "frmSoLuongBan.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmSoLuongBan.cs [Design]",
+              "RelativeToolTip": "frmSoLuongBan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:42.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmDanhsachPhieuNhap.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDanhsachPhieuNhap.cs",
+              "RelativeDocumentMoniker": "frmDanhsachPhieuNhap.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDanhsachPhieuNhap.cs [Design]",
+              "RelativeToolTip": "frmDanhsachPhieuNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:37.523Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmDoanhThu.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDoanhThu.cs",
+              "RelativeDocumentMoniker": "frmDoanhThu.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDoanhThu.cs [Design]",
+              "RelativeToolTip": "frmDoanhThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:34.207Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmBanSi.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmBanSi.cs",
+              "RelativeDocumentMoniker": "frmBanSi.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmBanSi.cs [Design]",
+              "RelativeToolTip": "frmBanSi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:32.031Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmDanhsachPhieuBanLe.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDanhsachPhieuBanLe.cs",
+              "RelativeDocumentMoniker": "frmDanhsachPhieuBanLe.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDanhsachPhieuBanLe.cs [Design]",
+              "RelativeToolTip": "frmDanhsachPhieuBanLe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:29.702Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmDanhsachPhieuBanSi.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDanhsachPhieuBanSi.cs",
+              "RelativeDocumentMoniker": "frmDanhsachPhieuBanSi.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDanhsachPhieuBanSi.cs [Design]",
+              "RelativeToolTip": "frmDanhsachPhieuBanSi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:28.586Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmNhapHang.cs [Design]",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhapHang.cs",
+              "RelativeDocumentMoniker": "frmNhapHang.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmNhapHang.cs [Design]",
+              "RelativeToolTip": "frmNhapHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:53:25.629Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "frmDangNhap.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\frmDangNhap.cs",
+              "RelativeToolTip": "frmDangNhap.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:35:33.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChiTietPhieuBanController.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\ChiTietPhieuBanController.cs",
+              "RelativeDocumentMoniker": "Controller\\ChiTietPhieuBanController.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Controller\\ChiTietPhieuBanController.cs",
+              "RelativeToolTip": "Controller\\ChiTietPhieuBanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:12:27.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserSingleton.cs",
+              "DocumentMoniker": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Model\\UserSingleton.cs",
+              "RelativeDocumentMoniker": "Model\\UserSingleton.cs",
+              "ToolTip": "D:\\AGU\\HocKy_7\\SEE522\\Cuahang Nongduoc\\Model\\UserSingleton.cs",
+              "RelativeToolTip": "Model\\UserSingleton.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:11:00.928Z"
             }
           ]
         },

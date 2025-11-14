@@ -125,3 +125,5 @@ C:\Users\SenetUser\Downloads\dotNet\obj\Debug\CuahangNongduoc.exe
 C:\Users\SenetUser\Downloads\dotNet\obj\Debug\CuahangNongduoc.pdb
 C:\Users\SenetUser\Downloads\dotNet\obj\Debug\CuahangNongduoc.frmDangNhap.resources
 C:\Users\SenetUser\Downloads\dotNet\obj\Debug\CuahangNongduoc.frmNhanVien.resources
+D:\AGU\HocKy_7\SEE522\Cuahang Nongduoc\obj\Debug\CuahangNongduoc.frmDangNhap.resources
+D:\AGU\HocKy_7\SEE522\Cuahang Nongduoc\obj\Debug\CuahangNongduoc.frmNhanVien.resources
