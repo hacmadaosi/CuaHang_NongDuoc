@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using System.Data;
-using System.Data.OleDb;
+using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace CuahangNongduoc
 {
@@ -9,35 +10,34 @@ namespace CuahangNongduoc
 	{
         
 		// The connection to a database of this data service.
-		private static OleDbConnection	m_Connection;
+		private static SqlConnection m_Connection;
 
         //
-        public static String m_ConnectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cuahang.dll;";
+        public static String m_ConnectString = "Server=USER_1;Database=CuaHang_NongDuoc;Integrated Security=SSPI;TrustServerCertificate=Yes;";
 		// The command to execute query or non-query command on a database of this data service.
-		private OleDbCommand		m_Command;
+		private SqlCommand m_Command;
       
 		// The data adapter to execute query on a database of this data service.
-		private OleDbDataAdapter	m_DataAdapter;
+		private SqlDataAdapter m_DataAdapter;
 
         public DataService(){}
 
 
-        public OleDbCommand Command
+        public SqlCommand Command
         {
             get { return m_Command; }
             set { m_Command = value; }
         }
 
-		public void Load(OleDbCommand command)
+		public void Load(SqlCommand command)
 		{
             OpenConnection();
             m_Command = command;
             try
-            {
-                
+            {   
                 m_Command.Connection = m_Connection;
 
-                m_DataAdapter = new OleDbDataAdapter();
+                m_DataAdapter = new SqlDataAdapter();
                 m_DataAdapter.SelectCommand = m_Command;
 
                 this.Clear();
@@ -56,9 +56,7 @@ namespace CuahangNongduoc
             try
             {
                 if (m_Connection == null)
-                    //m_Connection = new OleDbConnection("Data Source=LAPTOP07\\OleDbEXPRESS;Initial Catalog=VCB;Integrated Security=True;");
-                    //m_Connection = new OleDbConnection("Data Source=localhost;Initial Catalog=phongkham;User ID=sa; Password=tvteo;");
-                    m_Connection = new OleDbConnection(m_ConnectString);
+                    m_Connection = new SqlConnection(m_ConnectString);
                     
                     
                 if (m_Connection.State == ConnectionState.Closed)
@@ -70,7 +68,7 @@ namespace CuahangNongduoc
                 m_Connection.Close();
                 return false;
             }
-            
+
         }
 		/// <summary>
 		/// Closes the connection of this data service.
@@ -87,7 +85,7 @@ namespace CuahangNongduoc
         public int ExecuteNoneQuery()
 		{
             int result = 0;
-            OleDbTransaction tr = null;
+            SqlTransaction tr = null;
 			try
 			{
                 tr =  m_Connection.BeginTransaction();
@@ -95,10 +93,10 @@ namespace CuahangNongduoc
                 m_Command.Connection = m_Connection;
                 m_Command.Transaction = tr;
 
-                m_DataAdapter = new OleDbDataAdapter();
+                m_DataAdapter = new SqlDataAdapter();
                 m_DataAdapter.SelectCommand = m_Command;
 
-                OleDbCommandBuilder builder = new OleDbCommandBuilder(m_DataAdapter);                
+                SqlCommandBuilder builder = new SqlCommandBuilder(m_DataAdapter);                
 
                 result = m_DataAdapter.Update(this);
                
@@ -118,11 +116,11 @@ namespace CuahangNongduoc
         /// </summary>
         /// <param name="command">OleDb hay Store Procedure</param>
         /// <returns></returns>
-        public int ExecuteNoneQuery(OleDbCommand cmd)
+        public int ExecuteNoneQuery(SqlCommand cmd)
         {
 
             int result = 0;
-            OleDbTransaction tr = null;
+            SqlTransaction tr = null;
 
             try
             {
@@ -148,10 +146,10 @@ namespace CuahangNongduoc
             
         }
 
-        public object ExecuteScalar(OleDbCommand cmd)
+        public object ExecuteScalar(SqlCommand cmd)
         {
             object result = null;
-            OleDbTransaction tr = null;
+            SqlTransaction tr = null;
             
             try
             {

@@ -33,7 +33,7 @@ namespace CuahangNongduoc.Controller
             bs.DataSource = tbl;
             bn.BindingSource = bs;
             dg.DataSource = bs;
-            
+            dg.Columns["SSMA_TimeStamp"].Visible = false;
         }
 
         public void HienthiKhachHangChungDataGridviewComboBox(System.Windows.Forms.DataGridViewComboBoxColumn cmb)
@@ -75,7 +75,7 @@ namespace CuahangNongduoc.Controller
             bs.DataSource = tbl;
             bn.BindingSource = bs;
             dg.DataSource = bs;
-
+            dg.Columns["SSMA_TimeStamp"].Visible = false;
         }
 
         public void TimHoTen(String hoten, bool loai)

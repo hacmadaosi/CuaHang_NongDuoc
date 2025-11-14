@@ -1,0 +1,8 @@
+# Visual Studio / IDE temporary files
+.vs/
+*.suo
+*.user
+
+# Build and deployment artifacts
+[Bb]in/
+[Oo]bj/
