@@ -26,6 +26,10 @@
           <DataField>Id</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+		  <Field Name="TenSP">
+			  <DataField>TenSP</DataField>
+			  <rd:TypeName>System.String</rd:TypeName>
+		  </Field>
         <Field Name="NgayHetHan">
           <DataField>NgayHetHan</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
@@ -758,7 +762,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!SanPham.Value.TenSanPham</Value>
+                                  <Value>=Fields!TenSP.Value</Value>
                                   <Style>
                                     <FontFamily />
                                     <FontWeight>Bold</FontWeight>
@@ -807,8 +811,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=RowNumber("sanpham")</Value>
-                                  <Style>
+									<Value>=RowNumber("CuahangNongduoc_BusinessObject_MaSanPham")</Value>                                  <Style>
                                     <FontFamily />
                                   </Style>
                                 </TextRun>
@@ -1078,7 +1081,7 @@
                 <TablixMember>
                   <Group Name="sanpham">
                     <GroupExpressions>
-                      <GroupExpression>=Fields!SanPham.Value.TenSanPham</GroupExpression>
+                      <GroupExpression>=Fields!Id.Value</GroupExpression>
                     </GroupExpressions>
                   </Group>
                   <TablixMembers>

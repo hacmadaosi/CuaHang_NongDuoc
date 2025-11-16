@@ -86,6 +86,7 @@ namespace CuahangNongduoc.Controller
             {
                 sp = new MaSanPham();
                 sp.Id = Convert.ToString(row["ID"]);
+                sp.TenSP = Convert.ToString(row["TEN_SAN_PHAM"]);
                 sp.SoLuong = Convert.ToInt32(row["SO_LUONG"]);
                 sp.GiaNhap = Convert.ToInt64(row["DON_GIA_NHAP"]);
                 sp.NgayNhap = Convert.ToDateTime(row["NGAY_NHAP"]);

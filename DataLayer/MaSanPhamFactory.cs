@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
@@ -63,7 +63,7 @@ namespace CuahangNongduoc.DataLayer
 
         public DataTable DanhsachMaSanPhamHetHan(DateTime dt)
         {
-            OleDbCommand cmd = new OleDbCommand("SELECT * FROM MA_SAN_PHAM WHERE SO_LUONG > 0 AND NGAY_HET_HAN <= @ngay");
+            OleDbCommand cmd = new OleDbCommand("SELECT M.*, S.TEN_SAN_PHAM AS TEN_SAN_PHAM FROM MA_SAN_PHAM AS M INNER JOIN SAN_PHAM AS S ON M.ID_SAN_PHAM = S.ID WHERE M.SO_LUONG > 0 AND M.NGAY_HET_HAN <= @ngay");
             cmd.Parameters.Add("ngay", OleDbType.Date).Value = dt;
             m_Ds.Load(cmd);
 

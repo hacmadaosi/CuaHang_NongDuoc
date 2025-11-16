@@ -7,6 +7,7 @@ namespace CuahangNongduoc.BusinessObject
     public class MaSanPham
     {
         public MaSanPham() { }
+
         public MaSanPham(String id, int so_luong) 
         {
             m_Id = id;
@@ -29,14 +30,13 @@ namespace CuahangNongduoc.BusinessObject
             set { m_SanPham = value; }
         }
 
-        private string m_TenSP;
+        private String m_TenSP;
 
-        public string TenSP
+        public String TenSP
         {
-            get { return m_SanPham.TenSanPham; }
-          
+            get { return m_TenSP; }
+            set { m_TenSP = value; }
         }
-
 
         private long m_GiaNhap;
 
@@ -61,7 +61,6 @@ namespace CuahangNongduoc.BusinessObject
             set { m_ThanhTien = value; }
         }
 
-
         private DateTime m_NgayNhap;
 
         public DateTime NgayNhap
@@ -69,6 +68,7 @@ namespace CuahangNongduoc.BusinessObject
             get { return m_NgayNhap; }
             set { m_NgayNhap = value; }
         }
+
         private DateTime m_NgaySanXuat;
 
         public DateTime NgaySanXuat
@@ -76,6 +76,7 @@ namespace CuahangNongduoc.BusinessObject
             get { return m_NgaySanXuat; }
             set { m_NgaySanXuat = value; }
         }
+
         private DateTime  m_NgayHetHan;
 
         public DateTime  NgayHetHan
@@ -83,6 +84,7 @@ namespace CuahangNongduoc.BusinessObject
             get { return m_NgayHetHan; }
             set { m_NgayHetHan = value; }
         }
+
         private PhieuNhap m_PhieuNhap;
 
         public PhieuNhap PhieuNhap
