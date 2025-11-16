@@ -1,0 +1,237 @@
+================================================================================
+        TÀI LIỆU HƯỚNG DẪN HỆ THỐNG PHÂN QUYỀN
+        CỬA HÀNG NÔNG DƯỢC - QUẢN LÝ VÀ NHÂN VIÊN
+================================================================================
+
+Ngày tạo: 2024
+Phiên bản: 1.0
+
+================================================================================
+1. TỔNG QUAN HỆ THỐNG PHÂN QUYỀN
+================================================================================
+
+Hệ thống đã được tích hợp phân quyền với 2 vai trò chính:
+- QUẢN LÝ (Admin = true): Có đầy đủ quyền truy cập tất cả chức năng
+- NHÂN VIÊN (Admin = false): Chỉ có quyền truy cập các chức năng cơ bản
+
+================================================================================
+2. CẤU TRÚC DỮ LIỆU
+================================================================================
+
+2.1. Bảng TAI_KHOAN trong database:
+   - ID: Mã tài khoản
+   - TenTaiKhoan: Tên đăng nhập
+   - MatKhau: Mật khẩu
+   - TenNhanVien: Tên nhân viên
+   - SoDienThoai: Số điện thoại
+   - Admin: Boolean (true = Quản lý, false = Nhân viên)
+
+2.2. Class TaiKhoan (BusinessObject/TaiKhoan.cs):
+   - Thuộc tính VaiTro: Tự động xác định từ Admin
+     + Admin = true → VaiTro = "Quản lý"
+     + Admin = false → VaiTro = "Nhân viên"
+   - Phương thức LaQuanLy(): Kiểm tra có phải quản lý không
+   - Phương thức LaNhanVien(): Kiểm tra có phải nhân viên không
+
+================================================================================
+3. CÁC FILE ĐÃ ĐƯỢC CẬP NHẬT
+================================================================================
+
+3.1. BusinessObject/TaiKhoan.cs
+   - Thêm thuộc tính VaiTro
+   - Thêm phương thức LaQuanLy() và LaNhanVien()
+
+3.2. Controller/TaiKhoanController.cs
+   - Cập nhật phương thức DangNhap() để load thông tin Admin
+   - Xác định vai trò người dùng khi đăng nhập
+
+3.3. Controller/PhanQuyenHelper.cs (MỚI)
+   - Class hỗ trợ quản lý phân quyền
+   - Phương thức ApDungPhanQuyen() cho menu và toolbar
+   - Phương thức KiemTraQuyen() để kiểm tra quyền
+   - Phương thức HienThiThongBaoKhongQuyen() để hiển thị thông báo
+
+3.4. frmDangNhap.cs
+   - Cập nhật để truyền đối tượng TaiKhoan vào frmMain
+
+3.5. frmMain.cs
+   - Thêm phương thức ApDungPhanQuyen() để ẩn/hiện menu theo vai trò
+   - Thêm kiểm tra quyền trong các event handler quan trọng
+   - Hiển thị vai trò trong menu bar
+
+================================================================================
+4. CHI TIẾT PHÂN QUYỀN THEO VAI TRÒ
+================================================================================
+
+4.1. QUẢN LÝ (Admin = true):
+   ✓ Menu Quản lý:
+     - Lý do chi
+     - Đơn vị tính
+     - Sản phẩm
+     - Khách hàng
+     - Đại lý
+     - Nhà cung cấp
+   
+   ✓ Menu Nghiệp vụ:
+     - Nhập hàng
+     - Bán hàng (Bán lẻ, Bán sỉ)
+     - Phiếu chi
+     - Phiếu thu (Thanh toán)
+     - Tổng hợp dư nợ
+   
+   ✓ Menu Báo cáo:
+     - Số lượng tồn
+     - Số lượng bán
+     - Thống kê
+     - Sản phẩm hết hạn
+   
+   ✓ Menu Tùy chỉnh:
+     - Thông tin Cửa hàng
+
+4.2. NHÂN VIÊN (Admin = false):
+   ✓ Menu Nghiệp vụ:
+     - Bán hàng (Bán lẻ, Bán sỉ)
+     - Phiếu thu (Thanh toán)
+   
+   ✓ Menu Báo cáo:
+     - Số lượng tồn
+     - Số lượng bán
+     - Sản phẩm hết hạn
+   
+   ✗ KHÔNG CÓ QUYỀN:
+     - Quản lý sản phẩm, khách hàng, đại lý, nhà cung cấp
+     - Nhập hàng
+     - Phiếu chi
+     - Tổng hợp dư nợ
+     - Thống kê
+     - Tùy chỉnh hệ thống
+
+================================================================================
+5. CÁCH TẠO TÀI KHOẢN MẪU
+================================================================================
+
+5.1. Tạo tài khoản QUẢN LÝ:
+   INSERT INTO TAI_KHOAN (ID, TenTaiKhoan, MatKhau, TenNhanVien, SoDienThoai, Admin)
+   VALUES ('QL001', 'admin', 'admin123', 'Nguyễn Văn Quản Lý', '0123456789', true);
+
+   Tên đăng nhập: admin
+   Mật khẩu: admin123
+   Vai trò: Quản lý
+
+5.2. Tạo tài khoản NHÂN VIÊN:
+   INSERT INTO TAI_KHOAN (ID, TenTaiKhoan, MatKhau, TenNhanVien, SoDienThoai, Admin)
+   VALUES ('NV001', 'nhanvien', 'nv123', 'Trần Thị Nhân Viên', '0987654321', false);
+
+   Tên đăng nhập: nhanvien
+   Mật khẩu: nv123
+   Vai trò: Nhân viên
+
+LƯU Ý: 
+- Các tài khoản trên chỉ là ví dụ mẫu
+- Trong thực tế, cần tạo tài khoản thông qua giao diện quản lý hoặc trực tiếp trong database
+- Nên đổi mật khẩu mặc định sau lần đăng nhập đầu tiên
+
+================================================================================
+6. CÁCH HOẠT ĐỘNG CỦA HỆ THỐNG PHÂN QUYỀN
+================================================================================
+
+6.1. Khi đăng nhập:
+   - Hệ thống kiểm tra tên đăng nhập và mật khẩu
+   - Load thông tin Admin từ database
+   - Xác định vai trò (Quản lý hoặc Nhân viên)
+   - Truyền thông tin vào frmMain
+
+6.2. Khi load frmMain:
+   - Gọi phương thức ApDungPhanQuyen()
+   - Ẩn/hiện các menu và toolbar theo vai trò
+   - Hiển thị vai trò trong menu bar
+
+6.3. Khi click vào menu:
+   - Kiểm tra quyền trước khi mở form
+   - Nếu không có quyền, hiển thị thông báo cảnh báo
+   - Ngăn chặn truy cập trái phép
+
+================================================================================
+7. BẢO MẬT
+================================================================================
+
+7.1. Kiểm tra quyền ở nhiều lớp:
+   - Lớp UI: Ẩn/hiện menu và toolbar
+   - Lớp Event Handler: Kiểm tra quyền trước khi thực hiện hành động
+   - Lớp Business Logic: Có thể thêm kiểm tra quyền trong các controller
+
+7.2. Ngăn chặn truy cập trái phép:
+   - Menu bị ẩn không thể click được
+   - Nếu cố gắng truy cập trực tiếp, sẽ có thông báo cảnh báo
+   - Các form quan trọng nên có thêm kiểm tra quyền trong constructor
+
+================================================================================
+8. HƯỚNG DẪN SỬ DỤNG CHO NGƯỜI DÙNG
+================================================================================
+
+8.1. Đăng nhập:
+   - Nhập tên đăng nhập và mật khẩu
+   - Nhấn nút "Đăng nhập"
+   - Hệ thống sẽ tự động xác định vai trò và hiển thị menu phù hợp
+
+8.2. Quản lý:
+   - Có thể truy cập tất cả chức năng
+   - Có thể quản lý tài khoản, sản phẩm, khách hàng, v.v.
+
+8.3. Nhân viên:
+   - Chỉ thấy các menu được phép sử dụng
+   - Có thể bán hàng và xem báo cáo cơ bản
+   - Không thể truy cập các chức năng quản lý
+
+================================================================================
+9. MỞ RỘNG TRONG TƯƠNG LAI
+================================================================================
+
+Có thể mở rộng hệ thống phân quyền với:
+- Nhiều vai trò hơn (Trưởng ca, Kế toán, v.v.)
+- Phân quyền chi tiết hơn (chỉ đọc, chỉnh sửa, xóa)
+- Log hoạt động của người dùng
+- Quản lý session và timeout
+
+================================================================================
+10. LIÊN HỆ VÀ HỖ TRỢ
+================================================================================
+
+Nếu có vấn đề về phân quyền, vui lòng:
+1. Kiểm tra giá trị Admin trong bảng TAI_KHOAN
+2. Kiểm tra log lỗi (nếu có)
+3. Liên hệ quản trị viên hệ thống
+
+================================================================================
+11. QUẢN LÝ TÀI KHOẢN (MỚI)
+================================================================================
+
+11.1. Chức năng quản lý tài khoản:
+   - Form "Quản lý tài khoản" cho phép Quản lý thêm, sửa, xóa tài khoản
+   - Chỉ Quản lý mới có quyền truy cập form này
+   - Menu: Quản lý → Quản lý tài khoản
+
+11.2. Tính năng:
+   ✓ Thêm tài khoản mới với mật khẩu mặc định
+   ✓ Sửa thông tin tài khoản
+   ✓ Xóa tài khoản (trừ tài khoản đang đăng nhập)
+   ✓ Xem và sửa mật khẩu
+   ✓ Phân quyền Quản lý/Nhân viên qua checkbox
+
+11.3. Giao diện:
+   - DataGridView hiển thị danh sách tài khoản
+   - Icon cho các nút chức năng
+   - Màu sắc chuyên nghiệp
+   - Header tiếng Việt rõ ràng
+
+11.4. Bảo mật:
+   - Không cho xóa tài khoản đang đăng nhập
+   - Kiểm tra dữ liệu trùng lặp
+   - Validation trước khi lưu
+
+Xem thêm chi tiết trong file: CaiThien_GiaoDien_QuanLyTaiKhoan.txt
+
+================================================================================
+KẾT THÚC TÀI LIỆU
+================================================================================
+

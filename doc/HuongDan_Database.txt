@@ -1,0 +1,266 @@
+================================================================================
+        HƯỚNG DẪN SỬ DỤNG DATABASE - CỬA HÀNG NÔNG DƯỢC
+================================================================================
+
+Ngày tạo: 2024
+Phiên bản: 1.0
+
+================================================================================
+1. LOẠI DATABASE ĐANG SỬ DỤNG
+================================================================================
+
+Hệ thống đang sử dụng: Microsoft Access Database (MDB/ACCDB)
+- Provider: Microsoft.Jet.OLEDB.4.0
+- Loại: File-based database (không cần server)
+- Định dạng: Access Database (.mdb hoặc .accdb)
+
+================================================================================
+2. CẤU HÌNH KẾT NỐI
+================================================================================
+
+2.1. Connection String hiện tại:
+--------------------------------------------------
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cuahang.dll;
+--------------------------------------------------
+
+2.2. Vị trí file database:
+- File database: cuahang.dll (thực chất là file Access)
+- Vị trí: Thư mục gốc của ứng dụng (cùng thư mục với file .exe)
+- Đường dẫn đầy đủ: [Thư mục chạy ứng dụng]\cuahang.dll
+
+2.3. File DataService.cs:
+- Class: DataService
+- Connection string: m_ConnectString (dòng 15)
+- Phương thức kết nối: OpenConnection()
+
+================================================================================
+3. CẤU TRÚC DATABASE
+================================================================================
+
+3.1. Bảng chính trong hệ thống:
+   - TAI_KHOAN: Quản lý tài khoản đăng nhập
+   - SAN_PHAM: Danh mục sản phẩm
+   - KHACH_HANG: Thông tin khách hàng
+   - DAI_LY: Thông tin đại lý
+   - NHA_CUNG_CAP: Thông tin nhà cung cấp
+   - PHIEU_NHAP: Phiếu nhập hàng
+   - PHIEU_BAN: Phiếu bán hàng
+   - PHIEU_CHI: Phiếu chi
+   - PHIEU_THU: Phiếu thu (Thanh toán)
+   - Và các bảng khác...
+
+3.2. Bảng TAI_KHOAN (quan trọng cho phân quyền):
+   - ID: Mã tài khoản (String)
+   - TenTaiKhoan: Tên đăng nhập (String)
+   - MatKhau: Mật khẩu (String)
+   - TenNhanVien: Tên nhân viên (String)
+   - SoDienThoai: Số điện thoại (String)
+   - Admin: Vai trò (Boolean) - true = Quản lý, false = Nhân viên
+
+================================================================================
+4. CÁCH SỬ DỤNG DATABASE
+================================================================================
+
+4.1. Mở database bằng Microsoft Access:
+   - Cài đặt Microsoft Access (nếu chưa có)
+   - Mở Microsoft Access
+   - File > Open > Chọn file "cuahang.dll" (hoặc đổi tên thành .mdb/.accdb)
+   - Hoặc kéo thả file vào Access
+
+4.2. Mở database bằng công cụ khác:
+   - Có thể dùng các công cụ như:
+     * Access Database Engine (Microsoft)
+     * DB Browser for SQLite (nếu convert)
+     * Các công cụ quản lý Access database khác
+
+4.3. Xem và chỉnh sửa dữ liệu:
+   - Mở bảng cần xem
+   - Có thể thêm, sửa, xóa dữ liệu trực tiếp
+   - Lưu ý: Backup trước khi chỉnh sửa!
+
+================================================================================
+5. TẠO TÀI KHOẢN MỚI TRONG DATABASE
+================================================================================
+
+5.1. Cách 1: Sử dụng Microsoft Access
+   Bước 1: Mở file cuahang.dll bằng Access
+   Bước 2: Mở bảng TAI_KHOAN
+   Bước 3: Thêm dòng mới với các thông tin:
+     - ID: Mã duy nhất (ví dụ: QL001, NV001)
+     - TenTaiKhoan: Tên đăng nhập
+     - MatKhau: Mật khẩu
+     - TenNhanVien: Tên đầy đủ
+     - SoDienThoai: Số điện thoại
+     - Admin: true (Quản lý) hoặc false (Nhân viên)
+   Bước 4: Lưu và đóng Access
+
+5.2. Cách 2: Sử dụng SQL (trong Access)
+   - Mở Access
+   - Vào tab "Create" > "Query Design"
+   - Đóng cửa sổ Show Table
+   - Vào "SQL View"
+   - Nhập lệnh SQL:
+   
+   Ví dụ tạo tài khoản Quản lý:
+   --------------------------------------------------
+   INSERT INTO TAI_KHOAN (ID, TenTaiKhoan, MatKhau, TenNhanVien, SoDienThoai, Admin)
+   VALUES ('QL001', 'admin', 'admin123', 'Nguyễn Văn Quản Lý', '0123456789', true);
+   --------------------------------------------------
+   
+   Ví dụ tạo tài khoản Nhân viên:
+   --------------------------------------------------
+   INSERT INTO TAI_KHOAN (ID, TenTaiKhoan, MatKhau, TenNhanVien, SoDienThoai, Admin)
+   VALUES ('NV001', 'nhanvien', 'nv123', 'Trần Thị Nhân Viên', '0987654321', false);
+   --------------------------------------------------
+   
+   - Nhấn Run để thực thi
+
+================================================================================
+6. THAY ĐỔI ĐƯỜNG DẪN DATABASE
+================================================================================
+
+6.1. Nếu muốn đổi vị trí file database:
+   - Mở file: DataService.cs
+   - Tìm dòng 15: public static String m_ConnectString
+   - Thay đổi đường dẫn:
+   
+   Ví dụ:
+   --------------------------------------------------
+   // Đường dẫn tuyệt đối
+   public static String m_ConnectString = 
+       "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Data\\cuahang.mdb;";
+   
+   // Đường dẫn tương đối
+   public static String m_ConnectString = 
+       "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\\Data\\cuahang.mdb;";
+   --------------------------------------------------
+
+6.2. Nếu dùng Access 2007 trở lên (.accdb):
+   - Đổi Provider thành:
+   --------------------------------------------------
+   Provider=Microsoft.ACE.OLEDB.12.0;Data Source=cuahang.accdb;
+   --------------------------------------------------
+   - Cần cài đặt: Microsoft Access Database Engine
+
+================================================================================
+7. BACKUP VÀ KHÔI PHỤC DATABASE
+================================================================================
+
+7.1. Backup database:
+   - Sao chép file cuahang.dll sang vị trí khác
+   - Đặt tên có ngày tháng: cuahang_backup_20241116.dll
+   - Nên backup thường xuyên trước khi thay đổi dữ liệu
+
+7.2. Khôi phục database:
+   - Dừng ứng dụng
+   - Thay thế file cuahang.dll bằng file backup
+   - Khởi động lại ứng dụng
+
+7.3. Lưu ý:
+   - Luôn backup trước khi:
+     * Thêm/sửa/xóa dữ liệu lớn
+     * Cập nhật cấu trúc bảng
+     * Chạy script SQL phức tạp
+
+================================================================================
+8. XỬ LÝ LỖI KẾT NỐI
+================================================================================
+
+8.1. Lỗi: "Could not find file 'cuahang.dll'"
+   Nguyên nhân: File database không tồn tại
+   Giải pháp:
+   - Kiểm tra file có trong thư mục chạy ứng dụng không
+   - Kiểm tra đường dẫn trong DataService.cs
+   - Tạo file database mới nếu chưa có
+
+8.2. Lỗi: "Microsoft.Jet.OLEDB.4.0 provider is not registered"
+   Nguyên nhân: Chưa cài đặt Access Database Engine
+   Giải pháp:
+   - Tải và cài Microsoft Access Database Engine
+   - Hoặc cài Microsoft Access
+   - Link tải: https://www.microsoft.com/en-us/download/details.aspx?id=54920
+
+8.3. Lỗi: "Database is locked"
+   Nguyên nhân: Database đang được mở ở chỗ khác
+   Giải pháp:
+   - Đóng tất cả ứng dụng đang mở database
+   - Đóng Microsoft Access nếu đang mở file
+   - Khởi động lại ứng dụng
+
+8.4. Lỗi: "Unrecognized database format"
+   Nguyên nhân: File database bị hỏng hoặc định dạng không đúng
+   Giải pháp:
+   - Khôi phục từ backup
+   - Kiểm tra file có phải là Access database không
+   - Tạo database mới và import dữ liệu
+
+================================================================================
+9. TỐI ƯU HÓA DATABASE
+================================================================================
+
+9.1. Compact và Repair:
+   - Mở Access
+   - File > Info > Compact & Repair Database
+   - Giúp giảm kích thước file và sửa lỗi nhỏ
+
+9.2. Định kỳ:
+   - Backup hàng tuần
+   - Compact database hàng tháng
+   - Kiểm tra tính toàn vẹn dữ liệu
+
+================================================================================
+10. MIGRATE SANG DATABASE KHÁC (TÙY CHỌN)
+================================================================================
+
+Nếu muốn chuyển sang SQL Server hoặc database khác:
+
+10.1. SQL Server:
+   - Đổi connection string trong DataService.cs
+   - Sử dụng SqlConnection thay vì OleDbConnection
+   - Import dữ liệu từ Access sang SQL Server
+
+10.2. MySQL/PostgreSQL:
+   - Cần thay đổi toàn bộ DataService
+   - Sử dụng provider tương ứng
+   - Import dữ liệu
+
+Lưu ý: Việc migrate cần thay đổi nhiều code, nên cân nhắc kỹ.
+
+================================================================================
+11. CÁC LỆNH SQL THƯỜNG DÙNG
+================================================================================
+
+11.1. Xem tất cả tài khoản:
+   SELECT * FROM TAI_KHOAN;
+
+11.2. Tìm tài khoản theo tên:
+   SELECT * FROM TAI_KHOAN WHERE TenTaiKhoan = 'admin';
+
+11.3. Đổi mật khẩu:
+   UPDATE TAI_KHOAN 
+   SET MatKhau = 'matkhau_moi' 
+   WHERE TenTaiKhoan = 'admin';
+
+11.4. Đổi vai trò:
+   UPDATE TAI_KHOAN 
+   SET Admin = true 
+   WHERE TenTaiKhoan = 'admin';
+
+11.5. Xóa tài khoản:
+   DELETE FROM TAI_KHOAN WHERE ID = 'QL001';
+
+================================================================================
+12. LIÊN HỆ VÀ HỖ TRỢ
+================================================================================
+
+Nếu gặp vấn đề với database:
+1. Kiểm tra file database có tồn tại không
+2. Kiểm tra quyền truy cập file
+3. Kiểm tra Access Database Engine đã cài chưa
+4. Xem log lỗi trong ứng dụng
+5. Backup và thử khôi phục
+
+================================================================================
+KẾT THÚC TÀI LIỆU
+================================================================================
+
